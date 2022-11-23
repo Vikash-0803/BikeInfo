@@ -16,7 +16,10 @@ public class Ktm implements Bike {
 		System.out.println("Speed = 120kmph");
 //		super.speed();
 	}
-
+	
+	public void power() {
+		System.out.println("power");
+	}
 	public static void main(String[] args) {
 		
 		Ktm k = new Ktm();
