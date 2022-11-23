@@ -21,7 +21,14 @@ public class Ktm implements Bike {
 		System.out.println("Petro");
 	}
 
-	public static void main(String[] args) {
+	public void power() {
+		System.out.println("power");
+	}
+//	<<<<<<< HEAD
+//=======
+//>>>>>>> 90dcb263ba20b2d49d41065eec7e52581151a373
+
+public static void main(String[] args) {
 		
 		Ktm k = new Ktm();
 		k.cost();
