@@ -17,10 +17,18 @@ public class Ktm implements Bike {
 //		super.speed();
 	}
 	
+	public void petro() {
+		System.out.println("Petro");
+	}
+
 	public void power() {
 		System.out.println("power");
 	}
-	public static void main(String[] args) {
+//	<<<<<<< HEAD
+//=======
+//>>>>>>> 90dcb263ba20b2d49d41065eec7e52581151a373
+
+public static void main(String[] args) {
 		
 		Ktm k = new Ktm();
 		k.cost();
